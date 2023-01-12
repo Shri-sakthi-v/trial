@@ -1,0 +1,54 @@
+#navbar{
+    position: fixed;
+    height: 100px;
+    min-width: 300px;
+    width: 300px;
+    top:0px;
+    left: 0px;
+    color:red;
+    background-color: white;
+    padding:75px 0px;
+
+}
+@media only screen and (max-width:800px)
+{
+{
+    position: absolute;
+    height: auto;
+    min-width: 300px;
+    width:300px;
+    top: 10px;
+    left: 0px;
+    z-index: 2;
+
+}
+
+#navbar
+{
+    position: absolute;
+    max-height: 300px;
+    max-width: 300px;
+    width: 300px;
+
+    top: 0px;
+    left: 0px;
+
+}
+}
+
+@media screen and (max-height: 450px) {
+   # navbar  {padding-top: 15px;}
+   #navbar  a {font-size: 18px;}
+ }
+ @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#main-doc
+{
+    position:relative;
+    margin-left: 0px;
+    margin-top: 300px;
+}
+
